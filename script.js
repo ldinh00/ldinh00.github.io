@@ -62,7 +62,7 @@ noBtn.addEventListener("mouseover", () => {
 yesBtn.addEventListener("click", () => {
     title.textContent = "Tuấn biết mà kkk!";
 
-    catImg.src = "cat_dance.gif";
+    catImg.src = "twerking-butt.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
