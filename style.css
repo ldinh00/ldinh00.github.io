@@ -41,7 +41,7 @@ body {
 }
 
 .letter-window{
-    width: 200vw;
+    width: 90vw;
     max-width: 1000px;
     aspect-ratio: 3/2;
     padding: 20px 20px 0 20px;
@@ -57,6 +57,9 @@ body {
     border-radius: 12px;
     gap: 1px;
     padding-top: 180px;
+    overflow: hidden;
+    box-sizing: border-box;
+
 
     transform: scale(1.2);
     opacity: 0;
