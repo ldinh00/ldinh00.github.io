@@ -146,14 +146,15 @@ display: inline-block;
 }
 
 .final-text{
-    margin: 0;
-    max-width: 100%;                 /* vì cha đã padding 2 bên rồi */
-    font-size: clamp(16px, 2.2vw, 25px); /* tự co trên màn hình nhỏ */
+    font-size: 25px;
     line-height: 1.4;
-
-    padding: 10px 14px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+     max-width: 80%;        /* giới hạn chiều ngang */
+    word-wrap: break-word; /* xuống dòng khi cần */
     overflow-wrap: break-word;
-
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
