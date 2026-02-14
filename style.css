@@ -50,29 +50,22 @@ body {
     width: 90vw;
     max-width: 1000px;
     aspect-ratio: 3/2;
-
-    /* quan trọng: padding để nội dung nằm trong phần "kính" của window.png */
-    padding-top: 180px;
-    padding-left: clamp(30px, 8vw, 140px);
-    padding-right: clamp(30px, 8vw, 140px);
-    padding-bottom: clamp(40px, 6vw, 100px);
-
+    padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  /* đổi từ center -> tránh đẩy nội dung xuống viền */
+    justify-content: center;
     align-items: center;
     text-align: center;
-
     background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     border-radius: 12px;
-    gap: 10px;
-
+    gap: 1px;
+    padding-top: 180px;
     overflow: hidden;
     box-sizing: border-box;
+
 
     transform: scale(1.2);
     opacity: 0;
