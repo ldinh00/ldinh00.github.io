@@ -12,6 +12,9 @@ body {
 #envelope-container {
     text-align: center;
     cursor:pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+
 }
 
 @keyframes pulse {
@@ -30,6 +33,9 @@ body {
     width: 200px;
     animation: pulse 1.5s infinite;
     cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+
 }
 
 #letter-container{
